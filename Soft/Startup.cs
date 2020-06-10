@@ -40,6 +40,7 @@ namespace Loppprojekt.Soft
             services.AddScoped<IMarksRepository, MarksRepository>();
             services.AddScoped<IModelsRepository, ModelsRepository>();
             services.AddScoped<IGenerationsRepository, GenerationsRepository>();
+
             services.AddServerSideBlazor();
         }
 
