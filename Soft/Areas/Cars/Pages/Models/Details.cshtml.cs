@@ -17,6 +17,7 @@ namespace Loppprojekt.Soft.Areas.Cars.Pages.Models
             await getObject(id, fixedFilter,fixedValue);
 
             return Page();
+
         }
 
     }
